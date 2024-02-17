@@ -13,6 +13,7 @@ export default function IndexPage() {
         <p>
           Hello ice.js 3
         </p>
+        <span>{window.location.href}</span>
       </header>
       <main>
         <button className={styles.button} type="button" onClick={updateCount}>

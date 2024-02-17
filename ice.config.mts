@@ -9,5 +9,7 @@ export default defineConfig(() => ({
     onDemand: true,
     format: 'esm',
   },
+  ssr:false,
+  ssg:false,
   publicPath: `https://cdn.jsdelivr.net/gh/vl1n/gwfe@${version}/build/`
 }));
