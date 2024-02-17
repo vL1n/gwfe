@@ -1,5 +1,5 @@
 {
-  "publicPath": "https://cdn.jsdelivr.net/gh/vl1n/gwfe@0.0.5/build/",
+  "publicPath": "https://cdn.jsdelivr.net/gh/vl1n/gwfe@0.0.6/build/",
   "entries": {
     "main": [
       "css/main.css",
