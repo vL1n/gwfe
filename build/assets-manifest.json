@@ -1,11 +1,16 @@
 {
-  "publicPath": "https://cdn.jsdelivr.net/gh/vl1n/gwfe@0.0.3/build/",
+  "publicPath": "https://cdn.jsdelivr.net/gh/vl1n/gwfe@0.0.4/build/",
   "entries": {
     "main": [
       "css/main.css",
       "js/main.js"
     ]
   },
-  "pages": {},
+  "pages": {
+    "index": [
+      "css/p_index.css",
+      "js/p_index.js"
+    ]
+  },
   "assets": {}
 }

@@ -4,7 +4,7 @@ import { version } from './package.json'
 export default defineConfig(() => ({
   // Set your configs here.
   minify: 'swc',
-  codeSplitting: false,
+  codeSplitting: "page",
   server: {
     onDemand: true,
     format: 'esm',
