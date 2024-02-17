@@ -1,6 +1,6 @@
 {
   "name": "@vl1n/ice-test",
-  "version": "1.0.0",
+  "version": "0.0.2",
   "description": "A new ice.js project.",
   "dependencies": {
     "@ice/runtime": "^1.2.7",

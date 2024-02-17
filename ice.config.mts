@@ -1,4 +1,5 @@
 import { defineConfig } from '@ice/app';
+import { version } from './package.json'
 
 export default defineConfig(() => ({
   // Set your configs here.
@@ -8,5 +9,5 @@ export default defineConfig(() => ({
     onDemand: true,
     format: 'esm',
   },
-  publicPath: "https://cdn.jsdelivr.net/gh/vl1n/gwfe@main/build/"
+  publicPath: `https://cdn.jsdelivr.net/gh/vl1n/gwfe@${version}/build/`
 }));
