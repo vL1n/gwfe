@@ -13,7 +13,7 @@ export default function IndexPage() {
     <div className={styles.app} style={{ background: isDark ? '#000' : '#fff'}}>
       <header>
         <img src={logo} alt="logo" />
-        <p>
+        <p style={{color: isDark ? '#fff' : '#000'}}>
           Hello ice.js 3
         </p>
         <span style={{color: isDark ? '#fff' : '#000'}}>{window.location.href}</span>
